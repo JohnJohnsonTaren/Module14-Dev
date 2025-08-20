@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 // NoteRepository відповідає тільки за збереження/отримання даних
 @Repository
-public class NoteRepository {
+public class NoteRepository implements INoteRepository {
     private final Map<Long, Note> notes = new ConcurrentHashMap<>();
 
     public List<Note> findAll() {

@@ -1,4 +1,4 @@
-package Module14_Dev;
+package com.example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,5 +9,4 @@ class Module14DevApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

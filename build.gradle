@@ -25,6 +25,9 @@ dependencies {
 
 	// https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
 	implementation 'jakarta.servlet:jakarta.servlet-api:6.1.0'
+
+	// https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter
+	testImplementation 'org.mockito:mockito-junit-jupiter:5.19.0'
 }
 
 tasks.named('test') {
